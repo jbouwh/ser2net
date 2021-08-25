@@ -1,4 +1,4 @@
-name: Upload Python Package ser2net
+name: Build and upload Docker image ser2net
 
 on:
   release:
