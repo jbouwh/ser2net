@@ -9,6 +9,7 @@ services:
               published: 3333
               protocol: tcp
               mode: host
+        restart: on-failure
         deploy:
           restart_policy:
             condition: on-failure
