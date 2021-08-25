@@ -7,4 +7,4 @@ services:
         ports:
             - "3333:3333"
         network_mode: "bridge"
-        restart: on-failure
+        restart: always
