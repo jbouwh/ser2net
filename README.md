@@ -11,3 +11,5 @@ To override the config file bind it to `/etc/ser2net.conf`.
 This version of ser2net is customized to use with a generic DSMR (Slimme Meter) P1 to USB adapter.
 
 The tcp port can be used with the dsmr integration of Home Assistant or Omnikdatalogger
+
+This repository does not maintain the ser2net sourcecode. The sourcecode can be found here: https://sourceforge.net/projects/ser2net/
