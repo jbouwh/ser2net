@@ -8,13 +8,3 @@ services:
             - "3333:3333"
         network_mode: "bridge"
         restart: on-failure
-
-    omnikdataloggerproxy:
-        image: jbouwh/omnikdataloggerproxy:latest
-        volumes:
-            - /home/pi/docker/config/omnikdataloggerproxy/config.ini:/config.ini
-        ports:
-            - "10004:10004"
-        network_mode: "bridge"
-        restart: on-failure
-
